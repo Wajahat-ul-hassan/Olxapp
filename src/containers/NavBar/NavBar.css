@@ -1,0 +1,26 @@
+.navbar{
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem rgb(199, 198, 198));
+    height: 50px;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlist{
+    /* background: #000; */
+    width: 70%;
+    list-style: none;
+    cursor: pointer;
+}
+.navbutton{
+    border: none;
+    background-color: white;
+}
+.navbutton:hover{
+    color: tomato;
+}

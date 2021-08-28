@@ -1,0 +1,70 @@
+
+.signup{
+    background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 0%;
+    margin: 0%;
+    height: 757px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupform{
+    border-radius: 20px;
+    height: 600px;
+    width: 80%;
+    background-color:white;
+    display: flex;
+}
+.signupleft{
+    flex: 1;
+    opacity: 0.9;
+}
+.signupleft{
+    color:#5760a8 ;
+}
+.signupleft input{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    color:#5760a8 ;
+    /* display: block; */
+}
+.signupleft input:hover{
+    border: 3px solid #5760a8;
+}
+.signupleft button {
+    border: none;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color:#5760a8 ;
+    color: white;
+    font-size: 20px;
+}
+/* .signuplogin{
+    border: none;
+    margin-top: 20px;
+    width: 150px;
+    height: 100px;
+    background-color:#5760a8 ;
+    color: white;
+    font-size: 20px;
+} */
+.signupleft button:hover{
+    background-color: white;
+    color: #5760a8;
+    border: 2px  solid  #5760a8;
+}
+.signuplogin:hover{
+    background-color: white;
+    color: #5760a8;
+    border: 2px  solid  #5760a8;
+}
+.signupright{
+    flex: 1;
+   
+}
